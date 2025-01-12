@@ -35,6 +35,9 @@ $ ./scripts/long_term_forecast/ETT_script/ElxaTST_ETTm2_96_96.sh
 $ ./scripts/long_term_forecast/Weather_script/ElxaTST_Weather_96_96.sh
 ```
 
+> [!NOTE]
+> Due to the use of a function, such as [F.grid_sample](https://pytorch.org/docs/stable/generated/torch.nn.functional.grid_sample.html), which exhibits nondeterministic behavior in its backward pass, it may not be possible to reproduce the exact results reported in the paper.
+
 ## Acknowledgment
 
 This work was supported by the National Research Foundation of Korea (NRF) grant funded by the Korea government (MSIT) (No.2023R1A2C200337911 and No. RS-2023-00220762).
