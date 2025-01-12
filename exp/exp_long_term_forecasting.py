@@ -2,10 +2,10 @@ import os
 import time
 import warnings
 
-from tqdm import tqdm
 import numpy as np
 import torch
 from torch import nn, optim
+from tqdm import tqdm
 
 from data_provider.data_factory import data_provider
 from exp.exp_basic import Exp_Basic
